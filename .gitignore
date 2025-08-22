@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+
+# Distribution and build
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# IDE and Editor specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Qt Creator specific (if used)
+*.pro.user
+*.pro.user.*
+*.qrc.user
+*.ui.user
+*.pyproject # Optional, if you're comfortable with potential merge conflicts in this file
+
+# Compiled resources and UI files
+*.rcc
+*.ui.py # If you compile .ui files to .py
+
+##Eliminate virtual environment folders
+pyqt/
+
